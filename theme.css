@@ -1,0 +1,62 @@
+//@name Dracula
+
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+:root {
+  --accentcolor: 189,147,249;
+  --accentcolor2: 255,121,198;
+  --linkcolor: 139,233,253;
+  --mentioncolor: 241,250,140;
+  --textbrightest: 255,255,255;
+  --textbrighter: 203,203,203;
+  --textbright: 136,140,161;
+  --textdark: 135,138,155;
+  --textdarker: 102,107,135;
+  --textdarkest: 68,71,90;
+  --font: Roboto;
+  --backgroundaccent: 50,50,50;
+  --backgroundprimary: 24,25,31;
+  --backgroundsecondary: 28,29,37;
+  --backgroundsecondaryalt: 29,29,29;
+  --backgroundtertiary: 18,21,29;
+  --backgroundfloating: 26,26,27;
+  --settingsicons: 1;
+}
+
+/* Any custom CSS below here */
+
+.cozy-3raOZG .headerText-3Uvj1Y > .username-1A8OIy::before {
+  content: ''; 
+  width: calc(100% + 7px); 
+  height: 100%;
+  border-radius: 5px;
+  background-color: currentColor; 
+  opacity: 0.3; 
+  position: absolute; 
+  top: 0; 
+  z-index: -1;
+  /* repairs left shift*/
+  left: -3px;
+}
+.cozy-3raOZG .headerText-3Uvj1Y > .username-1A8OIy::after {
+  content: "";
+}
+/* repairs left shift */
+.cozy-3raOZG .headerText-3Uvj1Y > .username-1A8OIy {
+  margin-left: 3px;
+}
+
+.layer-3QrUeG {
+    transform: none !important;
+    opacity: 1 !important;
+}
+
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada *,
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada {
+    pointer-events: auto !important;
+    will-change: unset;
+}
+
+.animating-rRxada.stop-animations {
+    z-index: 100 !important;
+}
